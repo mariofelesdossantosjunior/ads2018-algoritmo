@@ -66,17 +66,17 @@ enquanto (RodaPrograma = "S") ou (RodaPrograma = "s") faca
             escreval("Digite um numero:")
             leia(numero)
             se numero MOD 2 = 0 entao
-               escreval("O numero é par")
+               escreval("O numero Ã© par")
             senao
-               escreval("O numero é impar")
+               escreval("O numero Ã© impar")
             fimse
          caso "2"
             escreval("Digite a idade:")
             leia(idade)
             se idade >= 18 entao
-               escreval("Você é de maior")
+               escreval("VocÃª Ã© de maior")
             senao
-               escreval("Você é de menor")
+               escreval("VocÃª Ã© de menor")
             fimse
          caso "3"
             escreval("Digite o primeiro numero:")
@@ -84,10 +84,10 @@ enquanto (RodaPrograma = "S") ou (RodaPrograma = "s") faca
             escreval("Digite o segundo numero:")
             leia(segundoNumero)
             se primeiroNumero > segundoNumero entao
-               escreval("Primeiro numero é maior")
+               escreval("Primeiro numero Ã© maior")
             senao
                se primeiroNumero < segundoNumero entao
-                  escreval("Segundo numero é maior")
+                  escreval("Segundo numero Ã© maior")
                senao
                   escreval("Os numeros sao iguais")
                fimse
@@ -98,7 +98,7 @@ enquanto (RodaPrograma = "S") ou (RodaPrograma = "s") faca
    caso "2"
       limpatela()
       escreval("=======================================")
-      escreval("| (1) Exemplos de laço para           |")
+      escreval("| (1) Exemplos de laÃ§o para           |")
       escreval("=======================================")
       escreval("| (1) Exemplo da tabuada              |")
       escreval("| (2) Exemplo da tabuada completa     |")
@@ -133,7 +133,7 @@ enquanto (RodaPrograma = "S") ou (RodaPrograma = "s") faca
    caso "3"
       limpatela()
       escreval("=======================================")
-      escreval("| (1) Exemplos de laço enquanto           |")
+      escreval("| (1) Exemplos de laÃ§o enquanto           |")
       escreval("=======================================")
       escreval("| (1)             |")
       escreval("| (2)    |")
